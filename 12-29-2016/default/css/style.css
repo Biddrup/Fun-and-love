@@ -272,3 +272,40 @@ Begenning of they are for purple
 End of purple
 ==========================
 */
+
+/*
+Begenning of /.review area*/
+.review {
+    margin-top: 3%;
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+}
+.review .image-review-green img {
+    display: inline-block;
+    border-bottom: 2px solid #1baf5d;
+    width: 100%;
+}
+.review .review-icong {
+    position: absolute;
+    width: 14%;
+    height: 14%;
+    background-color: #1baf5d;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    bottom: 35%;
+    left: 40%;
+}
+.review-wordg {
+    width: 80%;
+    position: absolute;
+    right: 0;
+    top: 70%;
+    left: 30%;
+}
+.review .reviewerg img {
+    width: 30%;
+    height: 30%;
+    display: inline-block;
+    position: absolute;
+}
