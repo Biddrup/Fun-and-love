@@ -134,6 +134,7 @@ Begenning or products
 .products {
     background-color: #f3f1f2;
     padding: 3%;
+    text-align: center;
 }
 .product-list {
     text-align: center;
@@ -154,6 +155,7 @@ They are for product with green
     border-radius: 100%;
     bottom: 35%;
     left: 40%;
+
 }
 .product-list .image-green img {
     display: inline-block;
@@ -199,6 +201,7 @@ Begenning, they are for product with yellow
     border-radius: 100%;
     bottom: 35%;
     left: 40%;
+    font-size: 160%;
 }
 .product-list .image-yellow img {
     display: inline-block;
@@ -243,6 +246,7 @@ Begenning of they are for purple
     border-radius: 100%;
     bottom: 35%;
     left: 40%;
+    font-size: 160%;
 }
 .product-list .image-purple img {
     display: inline-block;
@@ -274,7 +278,10 @@ End of purple
 */
 
 /*
-Begenning of /.review area*/
+======================================
+Begenning of /.review area for green
+======================================
+*/
 .review {
     margin-top: 3%;
     text-align: center;
@@ -289,23 +296,119 @@ Begenning of /.review area*/
 .review .review-icong {
     position: absolute;
     width: 14%;
-    height: 14%;
+    height: 19%;
     background-color: #1baf5d;
     border: 2px solid #fff;
     border-radius: 100%;
-    bottom: 35%;
-    left: 40%;
+    bottom: 41%;
+    left: 9%;
+    font-size: 30px;
 }
-.review-wordg {
-    width: 80%;
-    position: absolute;
-    right: 0;
-    top: 70%;
-    left: 30%;
+.comment-image {
+    margin-top: 40%;
 }
-.review .reviewerg img {
-    width: 30%;
-    height: 30%;
+.col-md-9 .comment {
+    text-align: left;
+}
+/*
+===================================
+Begenning of /.review for yellow
+===================================
+*/
+.review {
+    margin-top: 3%;
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+}
+.review .image-review-yellow img {
     display: inline-block;
+    border-bottom: 2px solid #f4b555;
+    width: 100%;
+}
+.review .review-icony {
     position: absolute;
+    width: 14%;
+    height: 19%;
+    background-color: #f4b555;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    bottom: 41%;
+    left: 9%;
+    font-size: 30px;
+}
+.comment-image {
+    margin-top: 40%;
+}
+.col-md-9 .comment {
+    text-align: left;
+    margin-top: 8%;
+}
+/*
+===================================
+This is for /.products-again
+===================================
+*/
+.products-again {
+    margin-top: 3%;
+}
+/*
+===================================
+End of /.products-again
+===================================
+*/
+
+
+/*
+===================================
+The begenning of /.products-again-three
+===================================
+*/
+
+.products-again-three {
+    margin-top: 3%;
+}
+.products-again-three .review {
+    margin-top: 0;
+}
+/*
+====================================
+End of /.products-again-three
+====================================
+*/
+
+/*=================================
+Begenning of /.more loading
+===================================
+*/
+
+.more {
+    margin: 3%
+}
+/*
+===================================
+End of /.more loading
+===================================
+*/
+
+/*
+==================================
+Begenning of /.feature-again
+==================================
+*/
+.feature-again {
+    padding: 65px;
+    border: 1px solid #e2dee0;
+    position: relative;
+}
+.filter-option {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+.filter-option .fa-home {
+    width: 10px;
+    height: 10px;
+    bottom: 0;
 }
