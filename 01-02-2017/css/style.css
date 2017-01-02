@@ -545,6 +545,34 @@ The begenning of product area 2
 }
 
 /*
+=====================================
+Offers again
+=====================================
+*/
+.new-tab {
+	text-align: center;
+}
+
+}
+.tab-list ul {
+	list-style: none;
+}
+
+.tab-list ul li {
+    margin: 16px;
+    padding: 0px;
+    float: left;
+}
+
+.tab-list ul li a {
+    display: inline-block;
+    width: 120px;
+    border: 1px solid #9dacad;
+    border-radius: 50%;
+    font-size: 67px;
+    text-align: center;
+}
+/*
 ======================================
 The begenning of footer area
 ======================================
@@ -597,4 +625,38 @@ ul {
     padding: 5px;
     width: 30px;
     font-size: 20px;
+}
+.last-one ul li {
+	margin-left: 0;
+}
+
+/*
+========================
+For signup form
+========================*/
+
+
+.content-area {
+    background-color: #37B0E9;
+    border: 18px solid #fff;
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    position: relative;
+    padding: 40px;
+    text-align: center;
+}
+.addtional	{
+	text-align: left;
+	padding-top: 10px;
+}
+.editted-btn {
+    width: 100%;
+    background-color: #3cc33c;
+    color: #fff;
+}
+.free {
+    position: absolute;
+    top: -27px;
+    right: -24px;
 }
